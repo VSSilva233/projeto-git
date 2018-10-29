@@ -117,7 +117,8 @@
   </body>
 </html>
 ```
-- Adicione, commit essas alterações
+
+- Adicione e commit essas alterações
 - Troque de branch para master, `git branch master`
 - Baixe as atualições que estão no respositório online, `git pull origin master`
 - Troque para a branch antiga, `git branch` 
