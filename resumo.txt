@@ -1,0 +1,18 @@
+=== O que é GIT? ===
+	- "Ele trabalha como snapshots, tira uma foto de todo o seu projeto"
+	- A maior parte das funcionalidades do git são locais
+
+=== Três estados === 
+	- consolidado (committed): Dados são ditos consolidados quando estão seguramente armazenados em sua base de dados local
+	- modificado (modified): Modificado trata de um arquivo que sofreu mudanças mas que ainda não foi consolidado na base de dados
+	- preparado (staged): Um arquivo é tido como preparado quando você marca um arquivo modificado em sua versão corrente para que ele faça parte do snapshot do próximo commit (consolidação).
+
+=== Repositório GIT === 
+	- O diretório do Git é o local onde o Git armazena os metadados e o banco de objetos de seu projeto. Esta é a parte mais importante do Git, e é a parte copiada quando você clona um repositório de outro computador.
+
+=== Fluxo de trabalho(WorkFlow) ===
+	- Você modifica arquivos no seu diretório de trabalho.
+	- Você seleciona os arquivos, adicionando snapshots deles para sua área de preparação.
+	- Você faz um commit, que leva os arquivos como eles estão na sua área de preparação e os armazena permanentemente no seu diretório Git.
+
+
