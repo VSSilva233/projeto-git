@@ -27,8 +27,36 @@
 - No terminal do gitbash digite `git status`
  
 ## Fazendo seu primeiro commit 
-- Digite `git add` 
+- Digite `git add .`
+- Digite `git commit -m "meu primeiro commit"` 
 
+## Fazendo seu primeiro push 
+- Digite `git push orign master`
+
+## Criando um branch 
+- Para criar uma branch digite `git branch primeira-branch`
+- Para ver as branches local(que não estão no repositório online), digite: `git branch `
+- Para ver as branches online digite `git branch -a`
+- Se quiser deletar uma branch vc pode executar o comado: `git branch -d nome-da-branch`
+
+- Digite `git checkout primeira-branch` para realizar a troca da branch 
+* As alterações que você realizar nessa branch não irão para a master até você realizar o merge
+
+## Fazendo alterações na branch
+- Realize qualquer alteração ou adição de arquivo
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apredendo git</title>
+    <meta charset="UTF-8">
+  </head>
+  
+  <body>
+    <h1>Olá mundo</h1>
+    <p>.......................................</p>
+  </body>
+</html>
 
 == Criar um repositório ==  
 	- Crie com nome "aprendendo-git"
