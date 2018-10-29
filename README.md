@@ -63,6 +63,7 @@
   </body>
 </html>
 ```
+
 ## Vendo alterações no arquivo
 - Digite `git diff` e verá tudo o que foi adicionado/modificado
 - Agora vamos subir essas alterações para o repositório 
@@ -77,7 +78,9 @@
 
 
 ## Fazendo um pull request
- - Para realizar um pull request clique em `New Pull request`
+- Para realizar um pull request clique em `New Pull request` ou `Compare & Pull request`
+- Coloque uma descrição no pull request
+- Clique em `Create pull request`
 
 * O git irá te mostrar todas as modificações realizadas 
 * Quem for avaliar seu pull request, poderá fazer `discussions(comentários)` sobre as coisas que vc fez, afim de melhorar o código, entender melhor a regra do negócio, etc.
@@ -85,4 +88,30 @@
 - Clique em `merge pull request`
 * Após o merge as modificações realizadas na branch `primeira-branch` estarão disponiveis na branch `master`
 
+## Criando conflitos
+- Nesta mesma branch vá no arquivo index.html e troque o código para:
 
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apredendo git</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    <h1>Bora resolver conflito p***</h1>
+    <p>.......................................</p>
+    .
+    .
+    .
+    .
+  </body>
+</html>
