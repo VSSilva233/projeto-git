@@ -1,5 +1,9 @@
 # Siga os passos a seguir
 
+## Links base para estudo: 
+- http://rogerdudler.github.io/git-guide/index.pt_BR.html
+- https://tableless.com.br/alguns-comandos-git/
+
 
 ## Crie uma conta no GitHub
 - Acesse o link https://github.com/join?source=header-home para criar sua conta
@@ -33,7 +37,7 @@
 ## Fazendo seu primeiro push 
 - Digite `git push orign master`
 
-## Criando umà branch 
+## Criando uma branch 
 - Para criar uma branch digite `git branch primeira-branch`
 - Para ver as branches local(que não estão no repositório online), digite: `git branch `
 - Para ver as branches online digite `git branch -a`
@@ -80,4 +84,41 @@
 
 * O git irá te mostrar todas as modificações realizadas 
 * Quem for avaliar seu pull request, poderá fazer `discussions(comentários)` sobre as coisas que vc fez, afim de melhorar o código, entender melhor a regra do negócio, etc.
- 
+
+- Clique em `merge pull request`
+* Após o merge as modificações realizadas na branch `primeira-branch` estarão disponiveis na branch `master`
+
+## Criando conflitos
+- Crie outra
+- Nesta mesma branch vá no arquivo index.html e troque o código para:
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apredendo git</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    <h1>Bora resolver conflito p***</h1>
+    <p>.......................................</p>
+    .
+    .
+    .
+    .
+  </body>
+</html>
+```
+
+- Adicione e commit essas alterações
+- Troque de branch para master, `git branch master`
+- Baixe as atualições que estão no respositório online, `git pull origin master`
+- Troque para a branch antiga, `git branch` 
