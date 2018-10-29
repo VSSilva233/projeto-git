@@ -59,6 +59,7 @@
   </body>
 </html>
 ```
+
 ## Vendo alterações no arquivo
 - Digite `git diff` e verá tudo o que foi adicionado/modificado
 - Agora vamos subir essas alterações para o repositório 
