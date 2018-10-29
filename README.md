@@ -7,20 +7,20 @@
 
 ## Crie um repositório 
 - Clice no icone de mais no lado superior direito
-- Clice em New Repository
-- Coloque no campo de Repository name o nome de "apredendendo-git"
-- Deixe a opção public selecionada e clique em Create Repository
+- Clice em `New Repository`
+- Coloque no campo de Repository name o nome de `apredendendo-git`
+- Deixe a opção public selecionada e clique em `Create Repository`
 
 ## Instalando GitBash
 - Efetue download https://gitforwindows.org/
 - Faça a instalação(aperto prosseguir em tudo)
 
 ## Configurando o projeto local
-- Para baixar o projeto, clique no botão verde, Clone or Download
+- Para baixar o projeto, clique no botão verde, `Clone or Download`
 - Copie o link na caixa de dialogo
 - Vá para area de trabalho e clique com o botão direito no mouse
 - Abra o GitBash
-- Digite: git clone url-copiada-no-site
+- Digite: `git clone url-copiada-no-site`
 
 ## Fazendo modificações no projeto
 - Crie um arquivo chamado `index.html` e salve ele
@@ -33,7 +33,7 @@
 ## Fazendo seu primeiro push 
 - Digite `git push orign master`
 
-## Criando um branch 
+## Criando umà branch 
 - Para criar uma branch digite `git branch primeira-branch`
 - Para ver as branches local(que não estão no repositório online), digite: `git branch `
 - Para ver as branches online digite `git branch -a`
@@ -59,16 +59,19 @@
   </body>
 </html>
 ```
-== Criar um repositório ==  
-	- Crie com nome "aprendendo-git"
+## Vendo alterações no arquivo
+- Digite `git diff` e verá tudo o que foi adicionado/modificado
+- Agora vamos subir essas alterações para o repositório 
+* Vale lembrar que como essa branch foi criada localmente, ela ainda não existe no repositório online
 
-== Fazer download do git ==
-	- link: https://gitforwindows.org/
+- Efetue toos os processos já vistos:
+  - `git add .`
+  - `git commit -m "adicionando conteudo ao index"`
+  - `git push orign primeira-branch`
 
-== Configurando repositório ==
- 	- Crie uma pasta chamada "apredendo-git"
- 	- Clique com botão direito e abra com git-bash
- 	- git remote add url
- 	- git commit -m "meu primeiro commit"
- 	- git push orign master 
-== 
+* Agora se você for no seu github, irá aparerecer essa nova branch, com seus commits e alterações
+
+
+## Fazendo um pull request
+ - Para realizar um pull request clique em `New Pull request`
+
