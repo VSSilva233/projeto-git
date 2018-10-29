@@ -59,6 +59,7 @@
   </body>
 </html>
 ```
+
 ## Vendo alterações no arquivo
 - Digite `git diff` e verá tudo o que foi adicionado/modificado
 - Agora vamos subir essas alterações para o repositório 
@@ -73,5 +74,10 @@
 
 
 ## Fazendo um pull request
- - Para realizar um pull request clique em `New Pull request`
+- Para realizar um pull request clique em `New Pull request` ou `Compare & Pull request`
+- Coloque uma descrição no pull request
+- Clique em `Create pull request`
 
+* O git irá te mostrar todas as modificações realizadas 
+* Quem for avaliar seu pull request, poderá fazer `discussions(comentários)` sobre as coisas que vc fez, afim de melhorar o código, entender melhor a regra do negócio, etc.
+ 
