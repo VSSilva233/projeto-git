@@ -1,14 +1,15 @@
 # Siga os passos a seguir
 
 
-## Crie uma conta no GitHub, se já tiver efetue Login
+## Crie uma conta no GitHub
+- Acesse o link https://github.com/join?source=header-home para criar sua conta
+- Ou efetue login https://github.com/login?return_to=%2Fjoin%3Fsource%3Dheader-home
 
 ## Crie um repositório 
 - Clice no icone de mais no lado superior direito
 - Clice em New Repository
 - Coloque no campo de Repository name o nome de "apredendendo-git"
 - Deixe a opção public selecionada e clique em Create Repository
-
 
 ## Instalando GitBash
 - Efetue download https://gitforwindows.org/
@@ -22,9 +23,11 @@
 - Digite: git clone url-copiada-no-site
 
 ## Fazendo modificações no projeto
-- Crie um arquivo chamado "index.html" e salve ele
-- No terminal do gitbash digite "git status"
-
+- Crie um arquivo chamado `index.html` e salve ele
+- No terminal do gitbash digite `git status`
+ 
+## Fazendo seu primeiro commit 
+- Digite `git add` 
 
 
 == Criar um repositório ==  
