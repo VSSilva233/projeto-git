@@ -88,8 +88,20 @@
 - Clique em `merge pull request`
 * Após o merge as modificações realizadas na branch `primeira-branch` estarão disponiveis na branch `master`
 
+
+## Git Stash
+* Imagine uma situação onde vc efetuou o pull request e merge da branch
+* Pórém esqueceu de trocar de branch localmente e continuou trabalhando nela
+* Realizou mais de 200 alterações, mas está na branch errada
+- Milagrosamente para resolver isso digite `git stash`, ela irá salvar suas alterações na memorória 
+- Troque para a branch master, `git checkout master`
+- Delete a branch antiga `git branch -d primeira-branch`
+- Crie uma nova branch, `git branch aprendendo-stash`
+- Troque para ela, `git checkout aprendendo-stash`
+- Digite `git stash apply`, todas as suas ultimas modificações estarão na branch correta agora.
+
+
 ## Criando conflitos
-- Crie outra
 - Nesta mesma branch vá no arquivo index.html e troque o código para:
 
 ```
@@ -120,5 +132,18 @@
 
 - Adicione e commit essas alterações
 - Troque de branch para master, `git branch master`
-- Baixe as atualições que estão no respositório online, `git pull origin master`
-- Troque para a branch antiga, `git branch` 
+- Baixe as atualizações que estão no respositório online, `git pull origin master`
+- Troque para a branch antiga, `git branch aprendendo-stash`
+- E merge alterações da `master` para sua branch, `git merge master`
+*Se tudo deu certo, irá aparecer algo como:
+
+``` HTML
+<<<<<<< HEAD
+    <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+=======
+    <!-- no style -->
+>>>>>>> master
+```
+
+*Bora resolver!!!!!!
+- Após resolver os conflitos, adicione e commit as modificações e de push
