@@ -45,6 +45,7 @@
 ## Fazendo alterações na branch
 - Realize qualquer alteração ou adição de arquivo
 
+``` HTML
 <!DOCTYPE html>
 <html>
   <head>
@@ -57,7 +58,7 @@
     <p>.......................................</p>
   </body>
 </html>
-
+```
 == Criar um repositório ==  
 	- Crie com nome "aprendendo-git"
 
