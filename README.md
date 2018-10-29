@@ -1,5 +1,9 @@
 # Siga os passos a seguir
 
+## Links base para estudo: 
+- http://rogerdudler.github.io/git-guide/index.pt_BR.html
+- https://tableless.com.br/alguns-comandos-git/
+
 
 ## Crie uma conta no GitHub
 - Acesse o link https://github.com/join?source=header-home para criar sua conta
@@ -74,4 +78,11 @@
 
 ## Fazendo um pull request
  - Para realizar um pull request clique em `New Pull request`
+
+* O git irá te mostrar todas as modificações realizadas 
+* Quem for avaliar seu pull request, poderá fazer `discussions(comentários)` sobre as coisas que vc fez, afim de melhorar o código, entender melhor a regra do negócio, etc.
+
+- Clique em `merge pull request`
+* Após o merge as modificações realizadas na branch `primeira-branch` estarão disponiveis na branch `master`
+
 
