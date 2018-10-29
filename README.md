@@ -37,7 +37,7 @@
 ## Fazendo seu primeiro push 
 - Digite `git push orign master`
 
-## Criando umà branch 
+## Criando uma branch 
 - Para criar uma branch digite `git branch primeira-branch`
 - Para ver as branches local(que não estão no repositório online), digite: `git branch `
 - Para ver as branches online digite `git branch -a`
@@ -89,6 +89,7 @@
 * Após o merge as modificações realizadas na branch `primeira-branch` estarão disponiveis na branch `master`
 
 ## Criando conflitos
+- Crie outra
 - Nesta mesma branch vá no arquivo index.html e troque o código para:
 
 ```
@@ -115,3 +116,8 @@
     .
   </body>
 </html>
+```
+- Adicione, commit essas alterações
+- Troque de branch para master, `git branch master`
+- Baixe as atualições que estão no respositório online, `git pull origin master`
+- Troque para a branch antiga, `git branch` 
